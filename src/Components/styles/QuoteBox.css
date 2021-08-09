@@ -17,6 +17,8 @@
     color: #212121;
     font-size: 2em;
     font-family: lora;
+    padding: 10px 3em;
+    line-break: strict;
 }
 
 .quote-author{

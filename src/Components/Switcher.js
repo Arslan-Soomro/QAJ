@@ -1,6 +1,6 @@
 import "./styles/Switcher.css";
 
-function Switcher() {
+function Switcher(props) {
     
     function switchHandler() {
         const box = document.querySelector(".moving-box");
@@ -12,7 +12,6 @@ function Switcher() {
             box.style.left = "0";
             box.classList.remove("move-left-anime");
             box.classList.add("move-right-anime");
-            
         }
     }
 
