@@ -1,0 +1,41 @@
+.switcher-container{
+    border: 1px solid rgb(194, 193, 193);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.moving-box{
+    background-color: rgba(105, 105, 105, 0.1);
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+    left: 0;
+}
+
+.switch-box{
+    display: inline-block;
+    padding: 10px 15px;
+    font-family: poppins;
+    cursor: pointer;
+    background-color: rgb(247, 245, 245);
+}
+
+.move-right-anime{
+    animation: move-right 0.3s forwards ease-out;
+}
+
+@keyframes move-right {
+    100% {left: 50%}
+}
+
+.move-left-anime{
+    animation: move-left 0.3s forwards ease-in;
+}
+
+@keyframes move-left {
+    100% {left: 0}
+}
